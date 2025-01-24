@@ -39,6 +39,7 @@ private Resource pdfDoc;
 
         List<Document> liste1 = pdfReader.get();
 
+
         List<Document> liste2 = textSplitter.apply(liste1);
 
         log.info("Nonmbre de documents extraits {} ",liste2.size());
